@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Thecoachsmb_Grid::gridmanager" title="Thecoachsmb" module="Thecoachsmb_Grid" sortOrder="10" resource="Thecoachsmb_Grid::gridmanager"/>
+    	<add id="Thecoachsmb_Grid::create" title="Grid Manager" module="Thecoachsmb_Grid" sortOrder="20" parent="Thecoachsmb_Grid::gridmanager" action="thecoachsmb/grid/index" resource="Thecoachsmb_Grid::create"/>
+    </menu>
+</config>
